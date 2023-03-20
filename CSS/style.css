@@ -1,0 +1,19 @@
+/* *{
+    background-image: url('../ASSEST/Virat.jpg');
+} */
+h1{
+    color: red;
+}
+|#earth{
+    border-radius: 100px;
+    max-height: 50px;
+    width: 30px;
+
+}
+button{
+    button: 1px solid  red;
+}
+.font-family{
+    font-style: italic;
+    font-family: 'Anton', sans-serif; 
+}

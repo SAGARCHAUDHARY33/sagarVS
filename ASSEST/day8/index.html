@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <section class="landing-page">
@@ -13,7 +14,8 @@
             <a href="#">
             <img src="./l.png" alt="logo-picture" >
         </a>
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="closemenu()"></i>
                 <ul>
                     <li><a href="#">HOME</a></li>
                     <li><a href="#">COURSES</a></li>
@@ -21,14 +23,55 @@
                     <li> <a href="#">CONTACT US</a> </li>
                 </ul>
             </div>
-       
-        </nav>
+       <i class="fa fa-bars" onclick="showMenu()"></i> 
+        </nav> 
+        <div class="text-box">
+            <h3>this is blog</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem nihil aspernatu!</p>
+        </div>
+    </section>
+    <script>
+        const navLinks = document.getElementById("navLinks");
+        
+        function closeMenu(){
+            navLinks.style.right ="-200px";
+        }
+        function closeMenu(){
+            navLinks.style.right ="0";
+        }
+    </script>
 
+    <section id="course-cors" class="course"> 
+        <h4>course of travel</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis rem qui fugiat accusantium unde placeat explicabo sed nostrum sequi, eligendi voluptate nulla, fuga in cum dignissimos ab aspernatur corporis! Laborum!</p>
+<div class="rows">
+<div class="course-col">
+    <h3>bungee</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim explicabo, odio ex impedit earum placeat labore quam corrupti non consectetur vero recusandae mollitia fuga pariatur architecto facere. Atque, est facere?</p>
+</div>
+<div class="course-col">
+    <h3>bungee</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim explicabo, odio ex impedit earum placeat labore quam corrupti non consectetur vero recusandae mollitia fuga pariatur architecto facere. Atque, est facere?</p>
+</div>
+<div class="course-col">
+    <h3>bungee</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim explicabo, odio ex impedit earum placeat labore quam corrupti non consectetur vero recusandae mollitia fuga pariatur architecto facere. Atque, est facere?</p>
+</div>
+<div class="course-col">
+    <h3>bungee</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim explicabo, odio ex impedit earum placeat labore quam corrupti non consectetur vero recusandae mollitia fuga pariatur architecto facere. Atque, est facere?</p>
+</div>
+<div class="course-col">
+    <h3>bungee</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim explicabo, odio ex impedit earum placeat labore quam corrupti non consectetur vero recusandae mollitia fuga pariatur architecto facere. Atque, est facere?</p>
+</div>
+<div class="course-col">
+    <h3>bungee</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim explicabo, odio ex impedit earum placeat labore quam corrupti non consectetur vero recusandae mollitia fuga pariatur architecto facere. Atque, est facere?</p>
+</div>
     </section>
-    <section class="courses">
-        <div></div>
-        <div></div>
-        <div></div>
-    </section>
+    
+
+   
 </body>
 </html>

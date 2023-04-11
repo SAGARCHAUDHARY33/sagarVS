@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // let people = [
+        //     {name: "Ram", age:17},
+        //     {name: "hari", age:18},
+        //     {name: "gopal", age:20},
+        //     {name: "maya", age:16},
+        //     {name: "Daya", age:22},
+        // ] 
+
+        // let peopleWhoCanDrink = people.filter((person) => {
+        //     return person.age >=18;
+        //     });
+        //     console.log(peopleWhoCanDrink)
+
+        // const string = ["sagar", "sohan", "gopal"]
+        // const concatstring = string.reduce((acc,value) => {
+        //     // console.log("acc",acc);
+        //     // console.log("acc",acc);
+        //  },"");
+        //     console.log(concatstring);
+
+        fetch("https://dummyjson.com/products")
+        .then((response) => {
+            console.log(response);
+            return response.json();
+        })
+        .then((products) => {
+            console.log(products);
+        });
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
